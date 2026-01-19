@@ -17,23 +17,40 @@ Build an always-available personal trainer that can:
 - Recovery & rest guidance (sleep, soreness, readiness).
 - Safety guardrails and clear disclaimers.
 
-## Tech Stack (Planned)
-- **React Native** (app)
-- **TypeScript** (app code)
+## Tech Stack
+- **React Native (Expo)**
+- **TypeScript**
 - **ChatGPT API** (coach logic)
 - **SQLite** or **AsyncStorage** (local data)
 - Optional backend for sync & analytics
 
-## Repository Structure (Planned)
+## Repository Structure
 ```
 .
-├── app/                 # React Native app
+├── app/                 # React Native app (Expo)
 ├── docs/                # Product and technical notes
 └── tools/               # Scripts and utilities
 ```
 
-## Getting Started (Placeholder)
-Initialize a React Native project in `app/` when ready (e.g., using Expo or React Native CLI).
+## Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+- Expo Go app (for running on a device)
+
+### Install
+```
+cd app
+npm install
+```
+
+### Run
+```
+npm run start
+```
+
+Follow the Expo prompts to open the app on an emulator or a physical device.
 
 ## Roadmap
 See [docs/roadmap.md](docs/roadmap.md).
